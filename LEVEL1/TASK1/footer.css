@@ -1,0 +1,79 @@
+/* Your existing CSS for styling the footer goes here */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+/* Additional styles for the footer content */
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000000; /* Set a background color for the footer */
+    padding: -10px 0; /* Add padding to space out the content */
+    margin-bottom: -86%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    flex-direction: row; /* Text color for the footer links */
+}
+
+.footer-section {
+    flex: 1; /* Make each section evenly distribute the available space */
+    padding: 0 20px; /* Add horizontal padding to separate sections */
+
+}
+
+/* Style the headings for Company, Platforms, and Social */
+.footer-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Style the vertical list */
+.vertical-list {
+    list-style: none;
+    padding: 0;
+    text-align: center; /* Align the text to the left */
+}
+
+.vertical-list li {
+    margin-bottom: 6px;
+}
+
+.vertical-list a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.vertical-list a:hover {
+    text-decoration: underline;
+
+}
+.footer-section h4 {
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+    justify-content: space-between;
+}
+
+.footer-section h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background: red;
+    height: 2px;
+    width: 50px;
+    box-sizing: border-box;
+}
+.fs{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    flex-direction: column; /* Text color for the footer links */
+}
